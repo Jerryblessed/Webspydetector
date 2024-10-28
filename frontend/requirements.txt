@@ -16,3 +16,4 @@ python-whois
 publicsuffix2
 six
 pyOpenSSL
+pywifi
