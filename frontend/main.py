@@ -10,7 +10,7 @@ from app.blueprints.save import save_bp
 from app.blueprints.misc import misc_bp
 from app.utils import read_config
 
-app = Flask(__name__, template_folder="../../app/frontend/dist")
+app = Flask(__name__, template_folder="./dist")
 
 @app.route("/", methods=["GET"])
 def main():
